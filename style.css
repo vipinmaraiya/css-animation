@@ -1,0 +1,27 @@
+img{
+    transform: rotateZ(0deg) translateX(600px);
+    transition: 10s;
+
+
+}
+.circle{
+    border-color: transparent;
+    background: green;
+    color:white;
+    height: 100px;
+    width:100px;
+    border-radius: 50px;
+    transition: 2s;
+}
+.circle:hover{
+    border-color: transparent;
+    background: red;
+    transform: rotateZ(360deg);
+    transition: 2s;
+    color:white;
+    height: 100px;
+    width:100px;
+    border-radius: 50px;
+    border-radius: 50px;
+
+}
