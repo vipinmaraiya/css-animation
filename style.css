@@ -30,7 +30,6 @@
 .circle-animate:hover{
     animation-name:rotate;
     animation-duration: 2s;
-
 }
 
 @keyframes rotate{
@@ -39,6 +38,6 @@
     }
     to{
         background-color:red;
-        transform: rotateZ(360deg)
+        transform: rotateZ(360deg);
     }
 }
