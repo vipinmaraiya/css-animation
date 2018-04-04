@@ -1,9 +1,3 @@
-img{
-    transform: rotateZ(0deg) translateX(600px);
-    transition: 10s;
-
-
-}
 .circle{
     border-color: transparent;
     background: green;
@@ -23,5 +17,28 @@ img{
     width:100px;
     border-radius: 50px;
     border-radius: 50px;
+}
 
+.circle-animate{
+    border-color: transparent;
+    background: orange;
+    color:white;
+    height: 100px;
+    width:100px;
+    border-radius: 50px;
+}
+.circle-animate:hover{
+    animation-name:rotate;
+    animation-duration: 2s;
+
+}
+
+@keyframes rotate{
+    from{
+        transform: rotateZ()(0deg)
+    }
+    to{
+        background-color:red;
+        transform: rotateZ(360deg)
+    }
 }
